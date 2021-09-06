@@ -13,47 +13,55 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     
+    <style>
+      
+
+    </style>
 
 </head>
 
 <body>
 
-    <header>
-        <div class="name">
-            <span><a href="#"></a> Manish Aggarwal</span>
-        </div>
 
-        <div class = "nav">
-            <nav>
-                <ul>
+    
+    <!-- -------navbar------------- -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Manish Aggarwal</label>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#skills">SKills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    <!-- -------navbar------------- -->
 
-                   
-                    <li ><a href="#about-me">About Me</a></li>
-                    <li ><a href="#skills">Skills</a></li>
-                    <li ><a href="#projects">Projects</a></li>
-
-                    <li ><a href="#contact">Contact</a></li>
-
-                </ul>
-            </nav>
-        </div>
-    </header>
+    
     
 
-
-    <main>
-        <div class="main">
+<!-- -------------------about-me------------- -->
+<main>
+    <div class="main">
 
             <div class="about-me">
                 <section class="About-Me">
                     <h2>About Me</h2>
-                    <div class="about-img">
-                        <img src="img/fevicon.png" alt="">
-                    </div>
-                    <div class="about-me-text">
+                    
+                       <p > <img  class = "about-img"; src="img/fevicon.jfif" alt="Manish Aggarwal" ></p>
+                    
+                    <P class="about-me-text">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolore praesentium beatae
                             laborum
@@ -64,27 +72,16 @@
                             esse
                             veniam fuga sed eveniet deleniti omnis explicabo iusto quae aut tenetur veritatis ullam
                             molestiae?
-                            Porro animi illo recusandae ducimus obcaecati laudantium molestiae provident impedit cum in
-                            est
-                            fuga
-                            vel, quos eius ratione fugiat similique blanditiis odio tenetur accusamus, aliquam
-                            voluptates
-                            ad.
-                            Animi adipisci, harum eos ut repellendus quibusdam neque facilis fuga blanditiis praesentium
-                            accusamus dolorem iste assumenda commodi placeat rem iure quaerat nam officiis velit
-                            reiciendis
-                            architecto non ratione. Qui obcaecati eligendi, beatae eveniet, minus provident earum,
-                            quidem
-                            illum
-                            necessitatibus quasi atque! Recusandae quod porro eos sequi blanditiis saepe accusantium
-                            tempora
-                            quae perspiciatis suscipit, illo officia at nisi aperiam. Necessitatibus libero ipsam nemo
-                            expedita
-                            assumenda aliquid cum voluptas.
+                           
+                          
                         </p>
-                    </div>
+                    <!-- </div> -->
                 </section>
             </div>
+            <!-- -------------------about-me------------- -->
+
+
+            <!-- -------------------------------------------------skills----------------------------------------- -->
             <div class="skills">
                 <section id="skills">
                     <h2>Skills</h2>
@@ -103,96 +100,109 @@
                     </p>
                 </section>
             </div>
-
-            <!-- --------------cards---------------------- -->
-
-
+            <!-- -------------------------------------------------skills----------------------------------------- -->
+            
 
 
-
-
-
+            <!-- -------------project-cards---------------------- -->
+            
             <div class="projects">
                 <section id="projects">
                     <h2>Projects</h2>
                     <div class="card-deck">
                         <div class="card">
-                            <img src="img/fevicon.png" class="card-img-top" alt="img/fevicon.png">
+                            <img src="img/potato disease classification.jpg" class="card-img-top" alt="img/fevicon.png">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-
+                                <h5 class="card-title">Potato Disease classification</h5>
+                                <p class="card-text">A classification model based on Deep learning Algorithms
+                                    to predict Disease in potato leaf. 
+                                </p>
+                                    
+                                    <a href="https://github.com/manish2538/potato-Disease-Classification" class="btn btn-primary">View Demo Code</a><br>
+                                    <a href="https://github.com/manish2538/potato-Disease-Classification" class="btn btn-primary" style = "margin-top:20px";>Source Code</a>
+                                    
+                                </div>
                             </div>
-                        </div>
-                        <div class="card">
-                            <img src="img/fevicon.png" class="card-img-top" alt="img/fevicon.png">
+                            <div class="card">
+                            <img src="img/flight-price.jpg" class="card-img-top" alt="flight-price">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to
-                                    additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Flight Price Prediction</h5>
+                                <p class="card-text">classification model based on machine learning Algorithms to predict
+                                    Ticket price from Source to Destination.
+                                </p>
+                                   
+                                    <a href="https://fprice.herokuapp.com/" class="btn btn-primary">View Demo</a><br>
+                                    
+                                    <a href="https://github.com/manish2538/flight-price-prediction" class="btn btn-primary" style = "margin-top:20px">Source Code</a>
 
+                                    
+                                </div>
                             </div>
-                        </div>
-                        <div class="card">
-                            <img src="img/fevicon.png" class="card-img-top" alt="img/fevicon.png">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This card has even longer content than the first to
-                                    show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a> <br>
-
+                            <div class="card">
+                                <img src="img/flipkart-fevicon.png" class="card-img-top" alt="img/fevicon.png">
+                                <div class="card-body">
+                                <h5 class="card-title">Flipkart</h5>
+                                <p class="card-text">Flipkart Static Home Page built using HTML and CSS.
+                                    
+                                </p>
+                                   
+                                <a href="https://manish2538.github.io/flipkartHome.github.io/" class="btn btn-primary">View Demo</a> <br>
+                                <a href="https://github.com/manish2538/flipkartHome.github.io" class="btn btn-primary" style = "margin-top: 20px";>Source Code</a> <br>
+                                
                             </div>
                         </div>
                     </div>
                     <br>
-
+                    
             </div>
-
-            </section>
-        </div>
-
+            
+        </section>
+    </div>
+    
         <!-- --------------cards---------------------- -->
+        <!-- -------------project-cards---------------------- -->
 
+
+        <!-- ----------------------------contact me ---------------------------------------- -->
+        
         <div class="testimonials">
             <section id="contact">
                 <h2>Contact Me</h2>
-
+                
                 <form action="/action_page.php">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
+                    
                     <label for="lname">Last Name</label>
                     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
+                    
                     <label for="country">Country</label>
                     <select id="country" name="country">
                         <option value="australia">Australia</option>
                         <option value="canada">Canada</option>
                         <option value="usa">USA</option>
                     </select>
-
+                    
                     <input type="submit" value="Submit">
                 </form>
             </section>
         </div>
 
+        
+        
+    </div>
+    <!-- ----------------------------contact me ---------------------------------------- -->
+</main>
 
 
-        </div>
-    </main>
 
-    <footer>
-        <div class="footer">
-            copyright &copy; amanish2538@gmail.com
-        </div>
-    </footer>
+<!-- ---------------------------footer------------------------------ -->
+<footer>
+    <div class="footer">
+        Copyright &copy; amanish2538@gmail.com
+    </div>
+</footer>
+<!-- ---------------------------footer------------------------------ -->
 
 </body>
 

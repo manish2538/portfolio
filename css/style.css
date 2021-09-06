@@ -12,18 +12,29 @@ body {
     background-color: var(--main-bg-color);
 }
 
-.name {
-    color: white;
-    border: 1px solid white;
-    float: left;
-    top: -38px;
-padding: 0px 11px;
-position: relative;
-font-size: 25px;
-left: -185px;
+
+
+.about-img{
+    float:right;
+    width:200px;
+    height:20px;
+    /* margin-left: 0px; */
 }
 
-header,
+.about-me-text {
+   
+    float:left;
+    width:300px;
+    height:20px;
+    overflow:hidden;
+}
+
+.card img{
+   width: 20vw;
+   height: 24vw;
+   margin: auto;
+}
+
 footer {
     display: flex;
     background-color: black;
@@ -37,44 +48,6 @@ footer {
     /* color: white; */
 }
 
-header .nav ul li {
-    display: inline;
-    /* background-color: green; */
-    padding: 2vw;
-
-
-
-}
-header .nav ul li :hover {
-    color: #b91a4feb;
-    font-weight: bold;
-
-
-
-}
-
-
-nav{
-    
-    color: white;
-    /* width: 100vw; */
-    /* height: 15vh; */
-}
-
-header nav ul {
-    display: inline;
-    /* float: right; */
-    padding: 2vw;
-    list-style: none;
-
-
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-}
-header nav ul li a {
-   color:white;
-}
 
 
 .skills,
@@ -85,7 +58,9 @@ header nav ul li a {
     flex-direction: column;
     background-color: white;
     /* background-color: rgb(238, 164, 164); */
-    /* border: 2px solid pink; */
+    border: 2px solid pink;
+
+    height: 100%;
     margin: 7vh 10vw;
     padding: 3vw;
 
@@ -121,47 +96,6 @@ input[type=submit]:hover {
 
 
 
-
-@media screen and (max-width:1000px) {
-    .nav ul li {
-        display: flex;
-        justify-content: space-between;
-        padding:20vw;
-        width: 100%;
-        text-align: center;
-        margin: 3vw;
-        padding: auto;
-
-        /* background-color: #45a049; */
-
-
-
-
-    }
-
-    .name {
-        /* display: flex;
-        flex-direction: column;
-        color: white;
-        font-size: 30px;
-        float: left; */
-        position: relative;
-        left: 20px;
-        
-
-    }
-
-
-
-    header {
-        height: 30vw;
-        display: flex;
-        /* padding:10vh; */
-        flex-direction: row;
-        background-color: var(--main-bg-color);
-    }
-
-}
 
 .about-me img {
     display: flex;
