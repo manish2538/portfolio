@@ -2,8 +2,8 @@
 
 
 # PortFolio
--Reading a Cv or Resume  is quite boring that's where portfolio come into picture, where recruiters or clients can know about you and your work  in a fun and interactive way. 
--Having a portfolio for a Developer is necessary to show case his/her work to recruiters.
+- Reading a Cv or Resume  is quite boring that's where portfolio come into picture, where recruiters or clients can know about you and your work  in a fun and interactive way. 
+- Having a portfolio for a Developer is necessary to show case his/her work to recruiters.
 
 # Tech Stack used
 - HTML
