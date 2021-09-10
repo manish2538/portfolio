@@ -1,89 +1,76 @@
-# portfolio
-
-demo - https://manish2538.github.io/portfolio.github.io/
 
 
-# Project Title
 
-One Paragraph of the project description
+# PortFolio
+-Reading a Cv or Resume  is quite boring that's where portfolio come into picture, where recruiters or clients can know about you and your work  in a fun and interactive way. 
+-Having a portfolio for a Developer is necessary to show case his/her work to recruiters.
 
-Initially appeared on
-[gist](https://manish2538.github.io/portfolio.github.io/). But the page cannot open anymore so that is why I have moved it here.
+# Tech Stack used
+-HTML
+-CSS
+-BootStrap
+
+# Code Edtior
+
+Vs Code Editor. 
+[Download the Latest version](https://code.visualstudio.com/)
+
+
+# Live Demo
+[Project Demo](https://manish2538.github.io/portfolio.github.io/). 
 
 ## Getting Started
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
+you can clone this repo
+
+'''
+    [git clone https://github.com/manish2538/portfolio.github.io]
+'''
+
+- Open portfolio folder in Vs Code Edtior.
+- Install Live Server Extension from Vs code editor Extensions.
+- Open Index.html with Live Server.
 
 ### Prerequisites
 
-Requirements for the software and other tools to build, test and push 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
+Requirements
 
-### Installing
+- A web Browser  ## Chrome , ## FireFox , or any other browser of your choice.
+- Vs Code Editor
+- HTML Extension
+- Css Extension
+- Live Server
 
-A step by step series of examples that tell you how to get a development
-environment running
-
-Say what the step will be
-
-    Give the example
-
-And repeat
-
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Sample Tests
-
-Explain what these tests test and why
-
-    Give an example
-
-### Style test
-
-Checks if the best practices and the right coding style has been used.
-
-    Give an example
 
 ## Deployment
 
-Add additional notes to deploy this on a live system
+This Project was deployed using Github Pages. 
+-Read [this](https://www.codecademy.com/articles/f1-u3-github-pages) blog on Deplyoing using github pages.
 
 ## Built With
 
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
+  -HTML5
+  -CSS3
+  -BootStrap
 
-## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+-Html version 5
+-CSS version 3
+-Bootstrap version 4
 
 ## Authors
 
-  - **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
+  - **Manish Aggarwal**  -
+    [LinkedIn](https://www.linkedin.com/in/ma2538/).
 
 See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
+
+1. [Flipkart Home Page](https://github.com/manish2538/flipkartHome.github.io)
+2. [Flight Price Prediction](https://github.com/manish2538/flight-price-prediction)
+3. Potato Disease Classification using CNN(https://github.com/manish2538/potato-Disease-Classification)
 
 ## License
 
@@ -93,6 +80,7 @@ details
 
 ## Acknowledgments
 
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
+  -W3 Schools
+  -Newton School
+  -BootStrap Documentation
+  -Code With Harry
